@@ -21,7 +21,7 @@ include_once "connection.php";
 	if(isset($_POST['shorten']))
 	{
 			
-			// Generate title
+			// Generate key
 			function generateRandomString($length = 5)
 			{
 				$characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
