@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 10, 2018 at 08:00 AM
+-- Generation Time: Jun 10, 2018 at 08:34 AM
 -- Server version: 10.1.28-MariaDB
 -- PHP Version: 7.1.11
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `url-shortner`
+-- Database: `url-shortener`
 --
 
 -- --------------------------------------------------------
@@ -44,7 +44,8 @@ INSERT INTO `links` (`id`, `url`, `alias`) VALUES
 (3, 'https://whatsapp.com', 'BlPmC'),
 (4, 'https://google.com', 'lXord'),
 (5, 'https://facebook.com', 'nFaAo'),
-(6, 'https://mail.google.com/mail/u/0/h/132w6vnqc07pl/?&', 'JLxVV');
+(6, 'https://mail.google.com/mail/u/0/h/132w6vnqc07pl/?&', 'JLxVV'),
+(7, 'http://scores.sify.com/', 'pSJZc');
 
 --
 -- Indexes for dumped tables
@@ -64,7 +65,7 @@ ALTER TABLE `links`
 -- AUTO_INCREMENT for table `links`
 --
 ALTER TABLE `links`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -5,7 +5,7 @@ include_once "connection.php";
 <!DOCTYPE html>
 <html>
 <head>
-	<title>URL Shortner</title>
+	<title>URL Shortener</title>
 </head>
 <body>
 	<link rel="stylesheet" type="text/css" href="style.css">

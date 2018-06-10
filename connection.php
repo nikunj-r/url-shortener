@@ -3,7 +3,7 @@
 $hostname = "localhost";
 $username = "root";
 $password = "";
-$dbname = "url-shortner";
+$dbname = "url-shortener";
 
 //Create connection
 $connection = mysqli_connect($hostname, $username, $password,$dbname);
