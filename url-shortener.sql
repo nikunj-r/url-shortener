@@ -44,7 +44,7 @@ INSERT INTO `links` (`id`, `url`, `alias`) VALUES
 (3, 'https://whatsapp.com', 'BlPmC'),
 (4, 'https://google.com', 'lXord'),
 (5, 'https://facebook.com', 'nFaAo'),
-(6, 'https://mail.google.com/mail/u/0/h/132w6vnqc07pl/?&', 'JLxVV'),
+(6, 'https://mail.google.com', 'JLxVV'),
 (7, 'http://scores.sify.com/', 'pSJZc');
 
 --
